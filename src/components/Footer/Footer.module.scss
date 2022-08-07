@@ -1,0 +1,9 @@
+.footer {
+  border-bottom: 1px solid red;
+  &_text {
+    color: red;
+    &:hover {
+      color: blue;
+    }
+  }
+}
