@@ -1,7 +1,11 @@
-.header{
-   border-bottom: 1px solid red;
-   &_text{
-      color:red;
-      &:hover{color:blue}
-   }
+.wrapper {
+  border-bottom: 1px solid red;
+  border-top: 1px solid var(--c-light-dark);
+  border-bottom: 1px solid var(--c-light-dark);
+}
+
+.inner {
+  height: 82px;
+  display: flex;
+  align-items: center;
 }
