@@ -3,8 +3,8 @@ import styles from './HeaderNav.module.scss'
 const Nav = () => {
    return (
       <nav className={styles.wrapper}>
-         <ul className={styles.list}>
-            <li className={`${styles.item} ${styles.dropdown}`}>
+         <div className={styles.list}>
+            <div className={`${styles.item} ${styles.dropdown}`}>
                <a href="#!" className={`${styles.link} ${styles.dropdown_toggle}`}>
                   Cryptocurrencies
                </a>
@@ -57,8 +57,8 @@ const Nav = () => {
                      </a>
                   </div>
                </div>
-            </li>
-            <li className={`${styles.item} ${styles.dropdown}`}>
+            </div>
+            <div className={`${styles.item} ${styles.dropdown}`}>
                <a href="#!" className={styles.link}>
                   Exchanges
                </a>
@@ -79,23 +79,23 @@ const Nav = () => {
                      </a>
                   </div>
                </div>
-            </li>
-            <li className={styles.item}>
+            </div>
+            <div className={styles.item}>
                <a href="#!" className={styles.link}>
                   NFT
                </a>
-            </li>
-            <li className={styles.item}>
+            </div>
+            <div className={styles.item}>
                <a href="#!" className={styles.link}>
                   Learn Crypto
                </a>
-            </li>
-            <li className={styles.item}>
+            </div>
+            <div className={styles.item}>
                <a href="#!" className={styles.link}>
                   Products
                </a>
-            </li>
-         </ul>
+            </div>
+         </div>
       </nav>
    )
 }
