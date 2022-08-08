@@ -1,3 +1,7 @@
+### I'm doing a CoinGecko clone to improve  myself on React.
+
+----
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
