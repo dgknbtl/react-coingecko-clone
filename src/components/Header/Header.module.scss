@@ -9,3 +9,23 @@
    display: flex;
    align-items: center;
 }
+
+.right {
+   margin-right: 0;
+   margin-left: auto;
+   display: flex;
+   align-items: center;
+   &_nav {
+      margin-right: 1rem;
+      a {
+         font-size: var(--fs-sm);
+         color: var(--c-gray);
+         &:hover {
+            color: var(--c-green);
+         }
+         + a {
+            margin-left: 1rem;
+         }
+      }
+   }
+}

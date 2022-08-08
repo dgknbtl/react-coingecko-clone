@@ -8,6 +8,9 @@
    --c-light-gray: #eee;
    --c-light-dark: #ddd;
 
+   --filter-gray: invert(29%) sepia(4%) saturate(0%) hue-rotate(2deg) brightness(89%)
+      contrast(88%);
+
    --radius-sm: 0.25rem;
    --radius-md: 0.37rem;
 
@@ -46,6 +49,7 @@ body {
    -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;
    font-size: 13px;
+   color: var(--c-dark);
 }
 
 code {

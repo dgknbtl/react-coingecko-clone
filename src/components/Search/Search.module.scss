@@ -1,0 +1,104 @@
+.wrapper {
+   position: relative;
+   .box {
+      width: 162px;
+      height: 45px;
+      border-radius: var(--radius-md);
+      background-color: var(--c-light-gray);
+      display: flex;
+      align-items: center;
+      &:hover {
+         .text {
+            color: var(--c-dark);
+         }
+      }
+   }
+}
+.icon {
+   width: 15px;
+   height: 15px;
+   object-fit: cover;
+   filter: var(--filter-gray);
+   margin-left: 15px;
+   margin-right: 10px;
+}
+
+.text {
+   color: rgba(0, 0, 0, 0.6);
+   font-size: var(--fs-sm);
+}
+
+.dropdown {
+   position: absolute;
+   top: 0;
+   right: 0;
+   width: 430px;
+   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+   border: 1px solid rgba(0, 0, 0, 0.05);
+   background-color: #fff;
+   border-radius: var(--radius-md);
+   &_form {
+      display: flex;
+      align-items: center;
+      height: 58px;
+      padding: 0 20px;
+      .icon {
+         margin: 0 0 -2px 0;
+      }
+   }
+   &_input {
+      width: 100%;
+      height: 58px;
+      outline: none;
+      border: 0;
+      padding-left: 15px;
+      &::placeholder {
+         color: rgba(0, 0, 0, 0.4);
+      }
+   }
+   &_close {
+      margin-top: 5px;
+      cursor: pointer;
+      img {
+         width: 20px;
+         height: 20px;
+         object-fit: cover;
+      }
+   }
+}
+
+.currencies {
+   h4 {
+      color: var(--c-gray);
+      font-weight: 400;
+      font-size: var(--ff-sm);
+      width: 100%;
+      border-bottom: 1px solid var(--c-light-gray);
+      padding: 0 20px 5px 20px;
+      margin-bottom: 5px;
+   }
+   .currency {
+      display: flex;
+      align-items: center;
+      padding: 10px 20px;
+      &:hover {
+         background-color: var(--c-light);
+         cursor: pointer;
+      }
+      &_img {
+         width: 16px;
+         height: 16px;
+         object-fit: cover;
+         margin-top: -1px;
+      }
+      &_name {
+         font-size: var(--fs-sm);
+         font-weight: 500;
+         width: 100%;
+         margin-right: 20px;
+         margin-left: 10px;
+      }
+      &_rank {
+      }
+   }
+}
