@@ -48,7 +48,11 @@ const Search = () => {
                      },
                   ].map((currency) => (
                      <div className={styles.currency} key={currency.symbol}>
-                        <img className={styles.currency_img} src={currency.img} />
+                        <img
+                           className={styles.currency_img}
+                           src={currency.img}
+                           alt={currency.name}
+                        />
                         <div className={styles.currency_name}>
                            {currency.name} ({currency.symbol})
                         </div>
