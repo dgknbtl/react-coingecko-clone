@@ -1,9 +1,9 @@
 .container {
-  border-bottom: 1px solid red;
-  &_text {
-    color: red;
-    &:hover {
-      color:var(--c-green)
-    }
-  }
+   border-bottom: 1px solid red;
+   &_text {
+      color: red;
+      &:hover {
+         color: var(--c-green);
+      }
+   }
 }
