@@ -1,7 +1,7 @@
 import styles from './Header.module.scss'
 import Logo from '../../assets/svg/logo.svg'
 import {Container} from '../Container'
-import {Nav} from '../Nav'
+import {HeaderNav} from '../HeaderNav'
 
 const Header = () => {
    return (
@@ -10,7 +10,7 @@ const Header = () => {
             <Container>
                <div className={styles.inner}>
                   <img src={Logo} height="40" alt="logo" />
-                  <Nav />
+                  <HeaderNav />
                </div>
             </Container>
          </header>

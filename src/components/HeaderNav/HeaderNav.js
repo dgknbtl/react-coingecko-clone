@@ -1,4 +1,4 @@
-import styles from './Nav.module.scss'
+import styles from './HeaderNav.module.scss'
 
 const Nav = () => {
    return (
